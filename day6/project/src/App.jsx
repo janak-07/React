@@ -17,18 +17,19 @@ function App() {
         gap: "10px",
       }}
     >
-       <div style={{ display: "flex", gap: "10px", }}>
-         {/* 1 */}
-         <button
+      <div style={{ display: "flex", gap: "10px" }}>
+        {/* 1 */}
+        <button
           onClick={() => setBackgroundColor("red")}
           style={{
             backgroundColor: "red",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            fontSize: "30px",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Red
@@ -39,13 +40,13 @@ function App() {
           onClick={() => setBackgroundColor("green")}
           style={{
             backgroundColor: "green",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-            borderRadius:"50%",
-            
-           }}
+            fontSize: "30px",
+            borderRadius: "50%",
+          }}
         >
           Green
         </button>
@@ -55,12 +56,13 @@ function App() {
           onClick={() => setBackgroundColor("blue")}
           style={{
             backgroundColor: "blue",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            fontSize: "30px",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Blue
@@ -71,12 +73,13 @@ function App() {
           onClick={() => setBackgroundColor("yellow")}
           style={{
             backgroundColor: "yellow",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            fontSize: "30px",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Yellow
@@ -87,40 +90,44 @@ function App() {
           onClick={() => setBackgroundColor("purple")}
           style={{
             backgroundColor: "purple",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            fontSize: "30px",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Purple
         </button>
-
+        {/* 6 */}
         <button
           onClick={() => setBackgroundColor("orange")}
           style={{
             backgroundColor: "Orange",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Orange
-        </button>    <button
+        </button>
+
+        {/* 7 */}
+        <button
           onClick={() => setBackgroundColor("black")}
           style={{
             backgroundColor: "black",
-            width:"150px",
-            height:"150px",
+            width: "150px",
+            height: "150px",
             color: "white",
             border: "2px solid black",
-             cursor: "pointer",
-             borderRadius:"50%",
+            cursor: "pointer",
+            borderRadius: "50%",
           }}
         >
           Black
