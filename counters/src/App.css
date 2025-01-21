@@ -1,0 +1,74 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+.button.disabled {
+  background-color: hsl(0, 42%, 58%);
+  color: #777;
+  cursor: not-allowed;
+}
+
+.full-background {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.counter-box {
+  text-align: center;
+  background: #8498a4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.count {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button.inc {
+  background-color: #163f17;
+  color: white;
+}
+
+.button.inc:hover {
+  background-color: #45a049;
+}
+
+.button.dec {
+  background-color: #5e2a26;
+  color: white;
+}
+
+.button.dec:hover {
+  background-color: #e53935;
+} 
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
