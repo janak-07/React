@@ -6,9 +6,9 @@ const Product = () => {
 
   async function get() {
     setLoading(true);
-    let response = await fetch("https://fakestoreapi.com/products");
+    let response = await fetch("https://dummyjson.com/products"); // Updated API
     let result = await response.json();
-    setData(result);
+    setData(result.products); // Adjusted for new API structure
     setLoading(false);
   }
 
@@ -38,7 +38,7 @@ const Product = () => {
         {data &&
           data.map((element) => (
             <div className="product-card" key={element.id}>
-              <img src={element.image} alt={element.title} />
+              <img src={element.thumbnail} alt={element.title} /> {/* Updated for new API */}
               <h1>{element.title}</h1>
               <p>Price: ${element.price}</p>
             </div>
