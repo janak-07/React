@@ -110,6 +110,7 @@ function App() {
             height: "150px",
             color: "white",
             border: "2px solid black",
+            fontSize:"30px",
             cursor: "pointer",
             borderRadius: "50%",
           }}
@@ -125,6 +126,7 @@ function App() {
             width: "150px",
             height: "150px",
             color: "white",
+            fontSize:"30px",
             border: "2px solid black",
             cursor: "pointer",
             borderRadius: "50%",
