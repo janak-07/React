@@ -71,7 +71,7 @@ export default function ProductCard() {
         {filteredProducts.map((product) => (
           <motion.div key={product.id} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <div className="p-6 border rounded-3xl shadow-xl bg-white text-center hover:shadow-2xl transition-all">
-              {/* Image ki jagah text placeholder */}
+              
               <div className="w-full h-48 bg-gray-200 text-xl flex items-center justify-center text-gray-600 font-semibold rounded-lg mb-4">
                 {product.img}
               </div>
